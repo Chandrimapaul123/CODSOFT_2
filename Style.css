@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@ body {
     line-height: 1.6;
 }
 
-/* ২. নেভবার */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -31,7 +32,7 @@ nav ul { display: flex; list-style: none; gap: 30px; }
 nav a { color: #cbd5e1; text-decoration: none; font-weight: 500; transition: 0.3s; }
 nav a:hover { color: #38bdf8; }
 
-/* ৩. হিরো সেকশন */
+
 header {
     background: radial-gradient(circle at top right, #1e3a8a, #020617);
     padding: 100px 10%;
@@ -54,7 +55,7 @@ header {
 
 .hero button:hover { transform: scale(1.05); box-shadow: 0 0 20px #38bdf8; }
 
-/* ৪. কার্ড ডিজাইন ও অ্যানিমেশন */
+
 .features, .courses, .testimonial, .contact { padding: 80px 10%; text-align: center; }
 
 .box-container, .course-container {
@@ -81,7 +82,7 @@ header {
 
 .box:hover, .course:hover { border-color: #38bdf8; transform: translateY(-10px); }
 
-/* ৫. কন্টাক্ট ফর্ম */
+
 .contact input, .contact textarea {
     width: 100%;
     max-width: 500px;
@@ -104,12 +105,12 @@ header {
     font-weight: bold;
 }
 
-/* ৬. ফুটার */
+
 footer { background: #020617; padding: 40px; border-top: 1px solid #1e293b; text-align: center; }
 
-/* --- রেসপন্সিভ ডিজাইন --- */
 
-/* মোবাইল ভিউ (৭৬৮ পিক্সেলের নিচে) */
+
+
 @media (max-width: 768px) {
     nav { flex-direction: column; padding: 15px; gap: 15px; }
     nav ul { gap: 15px; }
@@ -117,13 +118,13 @@ footer { background: #020617; padding: 40px; border-top: 1px solid #1e293b; text
     .features, .courses, .testimonial, .contact { padding: 40px 5%; }
 }
 
-/* ডেস্কটপ ভিউ (৭৬৯ পিক্সেলের উপরে) */
+
 @media (min-width: 769px) {
-    /* ফর্ম বড় করা */
+    
     .contact input, .contact textarea { max-width: 800px; padding: 20px; }
     .contact textarea { height: 150px; }
 
-    /* কার্ড পাশাপাশি রাখা */
+    
     .box-container, .course-container {
         display: flex;
         justify-content: center;
@@ -131,3 +132,4 @@ footer { background: #020617; padding: 40px; border-top: 1px solid #1e293b; text
     }
     .box, .course { width: 300px; }
 }
+
